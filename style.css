@@ -21,7 +21,7 @@ body {
 
 .stwo{
     background-color: #fdfdfe;
-    height: 1000px;
+    height: 725px;
     width: 1080px;
     margin: 80px 420px;
     border-radius: 15px;
@@ -50,4 +50,29 @@ body {
     font-size: 25px;
     margin: 0px;
     font-weight: bold;
+}
+
+.sthree{
+    background-color: #fdfdfe;
+    height: 475px;
+    width: 1080px;
+    margin: 80px 420px;
+    border-radius: 15px;
+}
+
+.course{
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 10px;
+    margin: 0px;
+}
+
+.course_T{
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 15px;
+    padding-left: 10px;
+    margin: 0px;
+    color: #f08f7b;
 }
