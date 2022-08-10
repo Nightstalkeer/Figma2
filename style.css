@@ -85,3 +85,23 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+.splayer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+}
+
+@media only screen and (max-width: 688px){
+    .top{
+        width: 100%;
+    }
+
+    .section{
+        width: 100%;
+    }
+
+    .splayer{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
